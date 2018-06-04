@@ -1,0 +1,244 @@
+{
+"path":"iheartradio.clients",
+"name":"US-android.mobile-100.0.0",
+"value" : {
+    "ads":{
+         "dfpInstanceId":"6663"
+      },
+      "affiliates" : {
+            "amazon" : {
+                "enabled" : true,
+                "id":"ihear0d7-20"
+            },
+            "google" : {
+                "enabled" : true,
+                "id":"11lvyS"
+            },
+            "itunes" : {
+                "enabled" : true,
+                "id":"11lvyS"
+            }
+        },
+        "analytics" : {
+            "googleAnalyticsKey": "UA-32316039-9"
+        },
+        "featureFlags" : {
+            "forYou" : true,
+            "forYouGenreCarousel" : false,
+            "podcasts" : true,
+            "customRadio" : true,
+            "extrasNav" : false,
+            "liveRadio" : true,
+            "liveRadioCountryNav" : false,
+            "perfectFor" : true,
+            "playlistRadio" : true,
+            "allAccessPreview": false,
+            "qrCode": true
+        },
+        "tabFlags" : [
+            "forYou",
+            "library",
+            "radio",
+            "playlist",
+            "podcast"
+        ],
+        "registrationOptions" : {
+            "genders" : [
+                         "gender.male",
+                         "gender.female"
+                         ],
+            "zipCodeLength": 5,
+            "zipKeyboard": "numeric",
+            "zipCodeHint": "ZIP code",
+            "zipRegex": "^\\d{5}$",
+            "oauths" : [
+                        "google",
+                        "facebook"
+                        ]
+        },
+        "socials" : {
+            "twitter" : {
+                "enabled" : true,
+                "name" : "iHeartRadio"
+            },
+            "facebook" : {
+                "enabled" : true,
+                "name" : "iHeartRadio"
+            },
+            "instagram" : {
+                "enabled" : true,
+                "name" : "iHeartRadio"
+            }
+        },
+        "urls" : {
+            "tos" : {
+                "en" : "https://www.iheartradio.com/terms/"
+            },
+            "privacy" : {
+                "en" : "https://www.iheartradio.com/privacy/"
+            },
+            "about" : {
+                "en" : "http://www.iheartradio.com/about/"
+            },
+            "help" : {
+                "en" : "http://help.iheart.com/?utm_source=app&utm_medium=iphone&utm_content=help&utm_campaign=in-app#product_Mobile"
+            },
+            "autoDownload" : "https://play.google.com/store/apps/details?id=com.clearchannel.iheartradio.connect",
+            "holidayHat" : "http://leads.radioedit.ihrint.com/api/cards?country=US&collection=collections/holiday-hat&facets=devices/android",
+            "radioEditUrl" : "https://leads.radioedit.ihrint.com/",
+            "apiUrl" : "https://us-qa.api.iheart.com",
+            "imgUrl" : "http://i-stg.iheart.com",
+            "liveradio" : "/live/country/US/",
+            "iglooUrl" : "https://us-qa-events.api.iheart.com"
+        },
+        "sdks" : {
+            "appBoy" : {
+                "appKey" : "6151a62d-c3ee-4892-af44-2268819a80ff",
+                "enabled" : true,
+                "threshold" : 100
+            },
+            "googleCast" : {
+                "enabled" : true,
+                "threshold" : 100,
+                "appKey" : "C54DBC0F"
+            },
+            "sonosCast" : {
+                "enabled" : true,
+                "threshold" : 100,
+                "appKey" : "C54DBC0F"
+            },
+            "facebookAudience" : {
+                "enabled" : true,
+                "threshold" : 100
+            },
+            "googlePlus" : {
+                "enabled" : true,
+                "threshold" : 100,
+                "appKey" : "884160514548-85c34aot7f7s2on3lqptmp7she09b11m.apps.googleusercontent.com"
+            },
+            "comScore" : {
+                "enabled" : true,
+                "publisherSecret" : "0bef577ec3f4eebf3d5eaa3945b5f838",
+                "customerId" : "6036262",
+                "threshold" : 100
+            },
+            "lotame" : {
+                "tp" : "CLCH",
+                "clientId" : 4086,
+                "enabled" : false,
+                "threshold" : 100,
+                "publisherId" : 4085
+            },
+            "facebook" : {
+                "enabled" : true,
+                "threshold" : 100
+            },
+            "nielsen" : {
+                "appId" : "PF07A6E05-55FB-FDA4-E040-070AAB3150B3",
+                "appName" : "iHeartRadio",
+                "enabled" : true,
+                "threshold" : 100
+            },
+            "tune" : {
+                "advertiserId" : "190107",
+                "enabled" : true,
+                "conversionKey" : "45dcd34f0551360bc698225f199ee1bc",
+                "threshold" : 100
+            },
+            "localytics" : {
+                "enabled" : true,
+                "threshold" : 100,
+                "appKey" : "9bdb13f9e7b3cf88853aa26-96cd27aa-9a5a-11e3-9998-009c5fda0a25"
+            },
+            "adMob" : {
+                "enabled" : true,
+                "threshold" : 100
+            },
+            "triton" : {
+                "enabled" : true,
+                "threshold" : 100,
+                "sid" : "151",
+                "music" : "20731",
+                "talk" : "23049"
+            },
+            "moat" : {
+                "enabled" : true,
+                "partnerCode" : "clearchannelinappvideo849063166172"
+            },
+            "mparticle" : {
+                "enabled" : true,
+                "threshold" : 100,
+                "key" : "31112e383e21fe43ace363e28fce3aca",
+                "secret" : "iC_AcFskFi2oxB3HXyZMMnqtOsywDj1EjyywyFWgkLRKhfC17B7sK5EltRLHkbcO"
+            },
+            "adswizz" : {
+                "server" : "clearchannel.deliveryengine.adswizz.com",
+                "installationId" : "ihmcustomAndroid",
+                "playerId" : "iHeartAndroidApp",
+                "zoneId" : "44685",
+                "companionViewZoneId" : "43284",
+                "enabled" : true,
+                "threshold" : 100
+            },
+             "gigya" : {
+                "enabled" : false,
+                 "apikey" : "",
+                 "facebookAppId" : ""
+             },
+             "krux" : {
+                  "enabled": false,
+                  "enConfigId": "",
+                  "frConfigId": "",
+                  "enOpenApp" : "",
+                  "frOpenApp" : ""
+             },
+             "adobe" : {
+                "enabled" : true,
+                "iglooEnabled" : true,
+                "apikey" : ""
+             }
+        },
+        "autoConfig":{  
+           "auto":[  
+              {  
+                 "client":"androidauto",
+                 "hostName":"androidauto-android.mobile.us",
+                 "terminalId":"805",
+                 "enable":"true"
+              },
+              {  
+                 "client":"ford",
+                 "hostName":"ford-android.mobile.us",
+                 "terminalId":"809",
+                 "enable":"true"
+              }
+           ]
+        },
+        "platformOverrideConfig":{  
+           "platform":[  
+              {  
+                 "client":"amazon",
+                 "hostName":"amazonfire.appliance.us",
+                 "terminalId":"366",
+                 "enable":"true"
+              },
+              {  
+                 "client":"wearstandalone",
+                 "hostName":"androidwear.appliance.us",
+                 "terminalId":"375",
+                 "enable":"true"
+              }
+           ]
+        },
+        "hostName" : "android.mobile.us",
+        "terminalId" : 181,
+        "defaultLiveMarketId" : 159,
+        "defaultLiveMarketName" : "NEWYORK-NY",
+        "defaultLiveCityId" : 159,
+        "defaultLiveCityName" : "New York",
+        "defaultLiveStateId" : 37,
+        "defaultLiveStateName" : "New York",
+        "defaultLiveStateAbbr" : "NY",
+        "defaultZip" : "10013"
+    }
+}

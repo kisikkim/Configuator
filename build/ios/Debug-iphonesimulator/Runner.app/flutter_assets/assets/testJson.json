@@ -1,0 +1,22 @@
+{
+  "featureA": true,
+  "featureB": true,
+  "object": {
+    "apiKey2": "aw02siawl2asdaso2a",
+    "releaseDate": "2014-06-25T00:00:00.000Z",
+    "threeDeep" : {
+      "featureD": false,
+      "featureE": true,
+      "tosUrl": "myUrl.com",
+      "apiKey1": "asLInil02Aoin2a",
+      "apiKey2": "aw02siawl2asdaso2a"
+    }
+  },
+  "featureC": false,
+  "featureD": false,
+  "featureE": true,
+  "tosUrl": "myUrl.com",
+  "apiKey1": "asLInil02Aoin2a",
+  "apiKey2": "aw02siawl2asdaso2a",
+  "releaseDate": "2014-06-25T00:00:00.000Z"
+}
